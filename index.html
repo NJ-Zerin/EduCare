@@ -1,299 +1,582 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EduCare</title>
     <!-- css link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- bootstrap link  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <!-- google font link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar start -->
     <header class="bg-dark text-white fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid pt-3">
-              <h4 class="fw-bold">EduCare</h4>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav d-flex align-items-center ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item ">
-                    <a class="nav-link active me-2 text-white" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item text-white">
-                    <a class="nav-link me-2 text-white" href="#">Courses</a>
-                  </li>
-                  <li class="nav-item text-white">
-                    <a class="nav-link me-2 text-white" href="#">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-2 text-white" href="#">Courses</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-2 text-white" href="#">Deals</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link me-2 text-white" href="#">Register</a>
-                  </li>
-                </ul>
-            </div>
-             <div class="d-flex ms-2">
-                <button class="btn btn-outline-light d-none d-sm-block" type="submit">Register</button>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            </div>
-          </nav>
-    </header>
-    <main>
-        <section class="container mt-5 pt-5">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="images/cover/cover-1.png" class="d-block img-fluid" style="width: 1440px; height: 600px;" alt="...">
-                    <div class="carousel-caption">
-                      <h1 class="fw-bold">Get started digital <br/>learning</h1>
-                      <p>The facilitates of this care are creation, delivery, evaluation and analysis of online training.
-                        Make it easy for your students, employees and teachers with our incredible functionalities and powerful tools.</p>
-                      <a href="https://www.evolmind.com/en/evolcampus/?piloto=398&evolkwd=elearning&evolmtype=b&gclid=EAIaIQobChMI6b3f6LKR-gIViH4rCh1-0QCMEAAYASAAEgLdIvD_" target="_blank"><button class="btn btn-outline-dark text-light fw-bold pt-2 pb-2 ps-4 pe-4 rounded-3 carousel-button">Get Started</button></a>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/cover/cover-2.jpg" class="d-block img-fluid" style="width: 1440px; height: 600px;" alt="...">
-                    <div class="carousel-caption">
-                        <h1 class="fw-bold">Our Courses for<br/>learners</h1>
-                        <p>Millions of people, of all ages and from around the world, are improving their lives with FutureLearn. They can read some of their amazing stories on our Meet the sites.
-                        </p>
-                        <a href="https://www.futurelearn.com/about-futurelearn/our-learners" target="_blank"><button class="btn btn-outline-dark text-light fw-bold pt-2 pb-2 ps-4 pe-4 rounded-3 carousel-button">Get Started</button></a>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/cover/cover-3.jpg" class="d-block img-fluid" style="width: 1440px; height: 600px;" alt="...">
-                    <div class="carousel-caption">
-                      <h1 class="fw-bold">Some facilitates of <br/>this plateform's</h1>
-                      <p>Platforms are turning up all over the place in facilities. There are platforms for single products and platforms for the entire building, off-the-shelf platforms and custom platforms. Some platforms are based in the cloud, and some are located on devices in facilities.</p>
-                      <a href="https://www.facilitiesnet.com/buildingautomation/article/Is-There-an-FM-Platform-for-That--18835" target="_blank"><button class="btn btn-outline-dark text-light fw-bold pt-2 pb-2 ps-4 pe-4 rounded-3 carousel-button">Get Started</button></a>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </section>
-        <section class="container mt-5">
-            <h1 class="fw-blod text-center mt-5">Discover Our popular<br>courses</h1>
-            <p class="text-center">We created this collection to celebrate 7 years of learners and educators coming together to spread knowledge and transform lives. Thanks for being a part of the journey with us!</p>
-            <div class="px-4">
-              <div class="row g-3">
-                <div class="col-lg-6">
-                 <div class="border bg-light d-lg-flex d-md-flex">
-                  <div>
-                    <img src="images/course/course-1.png" class=" rounded-start" alt="...">
-                  </div>
-                  <div>
-                    <div class="card-body">
-                      <h6 class="card-title fw-bold">Basic of UI/UX design</h6>
-                      <p class="card-text">UI refers to the screens, buttons, toggles, icons, and other visual elements that we interact.UX refers to the entire interaction.</p>
-                      <p class="card-text text-primary fw-bold">Price: 15$</p>
-                    </div>
-                 </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="border bg-light d-lg-flex d-md-flex">
-                 <div>
-                   <img src="images/course/course-2.png" class="rounded-start" alt="...">
-                 </div>
-                 <div>
-                   <div class="card-body">
-                     <h6 class="card-title fw-bold">Fundamental of javaScript</h6>
-                     <p class="card-text">UI refers to the screens, buttons, toggles, icons, and other visual elements that we interact.UX refers to the entire interaction.</p>
-                     <p class="card-text text-primary fw-bold">Price: 15$</p>
-                   </div>
-                </div>
-               </div>
-             </div> 
-             <div class="col-lg-6">
-              <div class="border bg-light d-lg-flex d-md-flex">
-               <div>
-                 <img src="images/course/course-3.png" class="rounded-start" alt="...">
-               </div>
-               <div>
-                 <div class="card-body">
-                   <h6 class="card-title fw-bold">Web development</h6>
-                   <p class="card-text">UI refers to the screens, buttons, toggles, icons, and other visual elements that we interact.UX refers to the entire interaction.</p>
-                   <p class="card-text text-primary fw-bold">Price: 15$</p>
-                 </div>
-              </div>
-             </div>
-           </div> 
-           <div class="col-lg-6">
-            <div class="border bg-light d-lg-flex d-md-flex">
-             <div>
-               <img src="images/course/course-4.png" class="rounded-start" alt="...">
-             </div>
-             <div>
-               <div class="card-body">
-                 <h6 class="card-title fw-bold">Freelancing</h6>
-                 <p class="card-text">UI refers to the screens, buttons, toggles, icons, and other visual elements that we interact.UX refers to the entire interaction.</p>
-                 <p class="card-text text-primary fw-bold">Price: 15$</p>
-               </div>
-            </div>
-           </div>
-         </div> 
-         <div class="col-lg-6">
-          <div class="border bg-light d-lg-flex d-md-flex">
-           <div>
-             <img src="images/course/course-5.png" class="rounded-start" alt="...">
-           </div>
-           <div>
-             <div class="card-body">
-               <h6 class="card-title fw-bold">Photography</h6>
-               <p class="card-text">UI refers to the screens, buttons, toggles, icons, and other visual elements that we interact.UX refers to the entire interaction.</p>
-               <p class="card-text text-primary fw-bold">Price: 15$</p>
-             </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid pt-3">
+          <h4 class="fw-bold">EduCare</h4>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav d-flex align-items-center ms-auto mb-2 mb-lg-0"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active me-2 text-white"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item text-white">
+                <a class="nav-link me-2 text-white" href="#">Courses</a>
+              </li>
+              <li class="nav-item text-white">
+                <a class="nav-link me-2 text-white" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2 text-white" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2 text-white" href="#">Deals</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-2 text-white" href="#">Register</a>
+              </li>
+            </ul>
           </div>
-         </div>
-       </div> 
-       <div class="col-lg-6">
-        <div class="border bg-light d-lg-flex d-md-flex">
-         <div>
-           <img src="images/course/course-6.png" class="rounded-start" alt="...">
-         </div>
-         <div>
-           <div class="card-body">
-             <h6 class="card-title fw-bold">Animation</h6>
-             <p class="card-text">UI refers to the screens, buttons, toggles, icons, and other visual elements that we interact.UX refers to the entire interaction.</p>
-             <p class="card-text text-primary fw-bold">Price: 15$</p>
-           </div>
+          <div class="d-flex ms-2">
+            <button
+              class="btn btn-outline-light d-none d-sm-block"
+              type="submit"
+            >
+              Register
+            </button>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
         </div>
-       </div>
-     </div> 
-    </div>
-  </div> 
-    <button class="btn btn-outline-dark mt-5 ms-4" type="submit">See more courses</button>     
-        </section>
-        <section class="bg-dark container mt-5 d-lg-flex text-white rounded-1">
-            <div class="mt-3 w-75 ms-5">
-                <h3>Ready to join?</h3>
-                <p>This guide aims to help you identify whether studying is the right step you should take in order to achieve your objectives. Furthermore, by the end of these 10 steps, you should be able to decide on 2-3 courses that you would like to study eventually.</p>
+      </nav>
+    </header>
+    <!-- navbar end -->
+    <main>
+      <!-- carousel start -->
+      <section class="container mt-5 pt-5">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/cover/cover-1.png"
+                class="d-block img-fluid"
+                style="width: 1440px; height: 600px"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h1 class="fw-bold">Get started digital <br />learning</h1>
+                <p>
+                  The facilitates of this care are creation, delivery,
+                  evaluation and analysis of online training. Make it easy for
+                  your students, employees and teachers with our incredible
+                  functionalities and powerful tools.
+                </p>
+                <a
+                  href="https://www.evolmind.com/en/evolcampus/?piloto=398&evolkwd=elearning&evolmtype=b&gclid=EAIaIQobChMI6b3f6LKR-gIViH4rCh1-0QCMEAAYASAAEgLdIvD_"
+                  target="_blank"
+                  ><button
+                    class="btn btn-outline-dark text-light fw-bold pt-2 pb-2 ps-4 pe-4 rounded-3 carousel-button"
+                  >
+                    Get Started
+                  </button></a
+                >
+              </div>
             </div>
-            <div class="mt-2 w-25">
-               <button type="button" class="btn btn-outline-light mt-5 ms-5" data-bs-toggle="modal" data-bs-target="#myModal">Register Now</button>
-               <div class="modal" id="myModal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h6 class="modal-title text-primary">Register this course early.</h6>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-                  </div>
+            <div class="carousel-item">
+              <img
+                src="images/cover/cover-2.jpg"
+                class="d-block img-fluid"
+                style="width: 1440px; height: 600px"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h1 class="fw-bold">Our Courses for<br />learners</h1>
+                <p>
+                  Millions of people, of all ages and from around the world, are
+                  improving their lives with FutureLearn. They can read some of
+                  their amazing stories on our Meet the sites.
+                </p>
+                <a
+                  href="https://www.futurelearn.com/about-futurelearn/our-learners"
+                  target="_blank"
+                  ><button
+                    class="btn btn-outline-dark text-light fw-bold pt-2 pb-2 ps-4 pe-4 rounded-3 carousel-button"
+                  >
+                    Get Started
+                  </button></a
+                >
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/cover/cover-3.jpg"
+                class="d-block img-fluid"
+                style="width: 1440px; height: 600px"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h1 class="fw-bold">
+                  Some facilitates of <br />this plateform's
+                </h1>
+                <p>
+                  Platforms are turning up all over the place in facilities.
+                  There are platforms for single products and platforms for the
+                  entire building, off-the-shelf platforms and custom platforms.
+                  Some platforms are based in the cloud, and some are located on
+                  devices in facilities.
+                </p>
+                <a
+                  href="https://www.facilitiesnet.com/buildingautomation/article/Is-There-an-FM-Platform-for-That--18835"
+                  target="_blank"
+                  ><button
+                    class="btn btn-outline-dark text-light fw-bold pt-2 pb-2 ps-4 pe-4 rounded-3 carousel-button"
+                  >
+                    Get Started
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- carousel end -->
+      <!-- course card part start -->
+      <section class="container mt-5">
+        <h1 class="fw-blod text-center mt-5">
+          Discover Our popular<br />courses
+        </h1>
+        <p class="text-center">
+          We created this collection to celebrate 7 years of learners and
+          educators coming together to spread knowledge and transform lives.
+          Thanks for being a part of the journey with us!
+        </p>
+        <div class="px-4">
+          <div class="row g-3">
+            <div class="col-lg-6">
+              <div class="border bg-light d-lg-flex d-md-flex">
+                <div>
+                  <img
+                    src="images/course/course-1.png"
+                    class="rounded-start"
+                    alt="..."
+                  />
                 </div>
-               </div>
-            </div>
-        </section>
-        <section class="container mt-5">
-            <h1 class="text-center mt-4 pt-5 pb-5 All-h1 fw-bold">Frequently Asked Questions</h1>
-              <div class="row mt-4">
-                <div class="col-12">
-                  <div class="accordion" id="accordionPanelsStayOpenExample">
-                    <div class="accordion-item mb-5 shadow-sm">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                          <h4>What are the differences between flex-box and grid?</h4>
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                        <div class="accordion-body">
-                          <p>Differences between between flex-box and grid are given below-<br>
-                            1.Flexbox was designed for layout in one dimension. But, Grid was designed for two-dimensional.<br>
-                            2.Flexbox is helpful in allocating and aligning the space among items in a container.On the other hand, Grid layout allow us to align elements into columns and rows.
-                            3.Flexbox container is the parent element while Flex Item represents the children. And Grid supports both implicit and explicit content placement. 
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item mb-5 shadow-sm">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                          <h4>What are the differences between Boostrap and Tailwind?</h4>
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                        <div class="accordion-body">
-                          <p>Differences between between Boostrap and Tailwind are given below-<br>
-                             1.Bootstrap is much older than tailwind.On the other hand, Tailwind is newer.<br>
-                             2.Bootstrap is much larger than tailwind.However,Tailwind is much smaller than bootstrap.<br>
-                             3.Bootstrap focuses on developing components for sitewide use. But, Tailwind is built to create functional, neat, and flexible UI elements.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item mb-5 shadow-sm">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                          <h4>What is css box model?</h4>
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                        <div class="accordion-body">
-                          <p>The CSS box model is essential for wraps around every HTML element. It is used for design. It consists of: margins, borders, padding, and the actual content.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item mb-5 shadow-sm">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                          <h4>what is semantic tag?</h4>
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
-                        <div class="accordion-body">
-                          <p>A semantic element clearly describes its meaning to both the browser and the developer.Examples of semantic tags are - &lt;/table&gt;, &lt;/form&gt;, &lt;/article&gt;, &lt;/aside&gt;, &lt;/footer&gt;, and so on.</p>
-                        </div>
-                      </div>
-                    </div>
+                <div>
+                  <div class="card-body">
+                    <h6 class="card-title fw-bold">Basic of UI/UX design</h6>
+                    <p class="card-text">
+                      UI refers to the screens, buttons, toggles, icons, and
+                      other visual elements that we interact.UX refers to the
+                      entire interaction.
+                    </p>
+                    <p class="card-text text-primary fw-bold">Price: 15$</p>
                   </div>
                 </div>
               </div>
-            </section>  
-            <section class="container mt-5 d-none d-lg-block">
-                <h1 class="fw-bold text-center">Trusted by over 800+ companies</h1>
-                <div class="d-flex justify-content-between mt-5 ">
-                    <img src="images/company/company-1.png" alt="">
-                    <img src="images/company/company-2.png" alt="">
-                    <img src="images/company/company-3.png" alt="">
-                    <img src="images/company/company-4.png" alt="">
-                    <img src="images/company/company-5.png" alt="">
-                    <img src="images/company/company-6.png" alt="">
+            </div>
+            <div class="col-lg-6">
+              <div class="border bg-light d-lg-flex d-md-flex">
+                <div>
+                  <img
+                    src="images/course/course-2.png"
+                    class="rounded-start"
+                    alt="..."
+                  />
                 </div>
-            </section>
-    </main>
-    <footer class="bg-dark text-center text-white mt-5">
-            <h4 class="fw-bold">EduCare</h4>
-        <p>Office-21, House-30, Road-15,Bashundhara<br>Dhaka-1229<br> Privacy policy | Tearms of use</p>
-        <div>
-            <img class="me-4" src="images/icons/facebook-logo.png" alt="">
-            <img class="me-4" src="images/icons/twitter.png" alt="">
-            <img class="me-4" src="images/icons/linkedin.png" alt="">
+                <div>
+                  <div class="card-body">
+                    <h6 class="card-title fw-bold">
+                      Fundamental of javaScript
+                    </h6>
+                    <p class="card-text">
+                      UI refers to the screens, buttons, toggles, icons, and
+                      other visual elements that we interact.UX refers to the
+                      entire interaction.
+                    </p>
+                    <p class="card-text text-primary fw-bold">Price: 15$</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="border bg-light d-lg-flex d-md-flex">
+                <div>
+                  <img
+                    src="images/course/course-3.png"
+                    class="rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div>
+                  <div class="card-body">
+                    <h6 class="card-title fw-bold">Web development</h6>
+                    <p class="card-text">
+                      UI refers to the screens, buttons, toggles, icons, and
+                      other visual elements that we interact.UX refers to the
+                      entire interaction.
+                    </p>
+                    <p class="card-text text-primary fw-bold">Price: 15$</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="border bg-light d-lg-flex d-md-flex">
+                <div>
+                  <img
+                    src="images/course/course-4.png"
+                    class="rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div>
+                  <div class="card-body">
+                    <h6 class="card-title fw-bold">Freelancing</h6>
+                    <p class="card-text">
+                      UI refers to the screens, buttons, toggles, icons, and
+                      other visual elements that we interact.UX refers to the
+                      entire interaction.
+                    </p>
+                    <p class="card-text text-primary fw-bold">Price: 15$</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="border bg-light d-lg-flex d-md-flex">
+                <div>
+                  <img
+                    src="images/course/course-5.png"
+                    class="rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div>
+                  <div class="card-body">
+                    <h6 class="card-title fw-bold">Photography</h6>
+                    <p class="card-text">
+                      UI refers to the screens, buttons, toggles, icons, and
+                      other visual elements that we interact.UX refers to the
+                      entire interaction.
+                    </p>
+                    <p class="card-text text-primary fw-bold">Price: 15$</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="border bg-light d-lg-flex d-md-flex">
+                <div>
+                  <img
+                    src="images/course/course-6.png"
+                    class="rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div>
+                  <div class="card-body">
+                    <h6 class="card-title fw-bold">Animation</h6>
+                    <p class="card-text">
+                      UI refers to the screens, buttons, toggles, icons, and
+                      other visual elements that we interact.UX refers to the
+                      entire interaction.
+                    </p>
+                    <p class="card-text text-primary fw-bold">Price: 15$</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <button class="btn btn-outline-dark mt-5 ms-4" type="submit">
+          See more courses
+        </button>
+      </section>
+      <!-- course card part end -->
+      <!-- bonus section start -->
+      <section class="bg-dark container mt-5 d-lg-flex text-white rounded-1">
+        <div class="mt-3 w-75 ms-5">
+          <h3>Ready to join?</h3>
+          <p>
+            This guide aims to help you identify whether studying is the right
+            step you should take in order to achieve your objectives.
+            Furthermore, by the end of these 10 steps, you should be able to
+            decide on 2-3 courses that you would like to study eventually.
+          </p>
+        </div>
+        <!-- modal part start -->
+        <div class="mt-2 w-25">
+          <button
+            type="button"
+            class="btn btn-outline-light mt-5 ms-5"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            Register Now
+          </button>
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h6 class="modal-title text-primary">
+                    Register this course early.
+                  </h6>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                  ></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal part end -->
+      </section>
+      <!-- bonus section end -->
+      <!-- question answer part start -->
+      <section class="container mt-5">
+        <h1 class="text-center mt-4 pt-5 pb-5 All-h1 fw-bold">
+          Frequently Asked Questions
+        </h1>
+        <div class="row mt-4">
+          <div class="col-12">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item mb-5 shadow-sm">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne"
+                  >
+                    <h4>What are the differences between flex-box and grid?</h4>
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="panelsStayOpen-headingOne"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Differences between between flex-box and grid are given
+                      below-<br />
+                      1.Flexbox was designed for layout in one dimension. But,
+                      Grid was designed for two-dimensional.<br />
+                      2.Flexbox is helpful in allocating and aligning the space
+                      among items in a container.On the other hand, Grid layout
+                      allow us to align elements into columns and rows.
+                      3.Flexbox container is the parent element while Flex Item
+                      represents the children. And Grid supports both implicit
+                      and explicit content placement.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-5 shadow-sm">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    <h4>
+                      What are the differences between Boostrap and Tailwind?
+                    </h4>
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingTwo"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Differences between between Boostrap and Tailwind are
+                      given below-<br />
+                      1.Bootstrap is much older than tailwind.On the other hand,
+                      Tailwind is newer.<br />
+                      2.Bootstrap is much larger than tailwind.However,Tailwind
+                      is much smaller than bootstrap.<br />
+                      3.Bootstrap focuses on developing components for sitewide
+                      use. But, Tailwind is built to create functional, neat,
+                      and flexible UI elements.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-5 shadow-sm">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    <h4>What is css box model?</h4>
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      The CSS box model is essential for wraps around every HTML
+                      element. It is used for design. It consists of: margins,
+                      borders, padding, and the actual content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-5 shadow-sm">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFour"
+                  >
+                    <h4>what is semantic tag?</h4>
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingFour"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      A semantic element clearly describes its meaning to both
+                      the browser and the developer.Examples of semantic tags
+                      are - &lt;/table&gt;, &lt;/form&gt;, &lt;/article&gt;,
+                      &lt;/aside&gt;, &lt;/footer&gt;, and so on.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- question answer part end -->
+      <!-- companies images part start -->
+      <section class="container mt-5 d-none d-lg-block">
+        <h1 class="fw-bold text-center">Trusted by over 800+ companies</h1>
+        <div class="d-flex justify-content-between mt-5">
+          <img src="images/company/company-1.png" alt="" />
+          <img src="images/company/company-2.png" alt="" />
+          <img src="images/company/company-3.png" alt="" />
+          <img src="images/company/company-4.png" alt="" />
+          <img src="images/company/company-5.png" alt="" />
+          <img src="images/company/company-6.png" alt="" />
+        </div>
+      </section>
+      <!-- companies images part end -->
+    </main>
+    <!-- footer part start -->
+    <footer class="bg-dark text-center text-white mt-5">
+      <h4 class="fw-bold">EduCare</h4>
+      <p>
+        Office-21, House-30, Road-15,Bashundhara<br />Dhaka-1229<br />
+        Privacy policy | Tearms of use
+      </p>
+      <div>
+        <img class="me-4" src="images/icons/facebook-logo.png" alt="" />
+        <img class="me-4" src="images/icons/twitter.png" alt="" />
+        <img class="me-4" src="images/icons/linkedin.png" alt="" />
+      </div>
     </footer>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- footer part end -->
+  </body>
+  <!-- script link -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
 </html>
