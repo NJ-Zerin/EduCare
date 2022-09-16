@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    font-family: 'Signika Negative', sans-serif;
+}
+.navbar-toggler-icon{
+    color: rgb(169, 159, 159);
+}
+footer{
+    height: 200px;
+    margin-top: 150px;
+}
